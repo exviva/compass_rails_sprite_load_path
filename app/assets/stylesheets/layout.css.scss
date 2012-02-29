@@ -1,0 +1,19 @@
+@import "icons/*.png";
+
+div {
+  float: left;
+  width: 300px;
+  height: 600px;
+}
+
+#left {
+  @include icons-sprite(y_u_no);
+}
+
+#middle {
+  @include icons-sprite(all_the_things);
+}
+
+#right {
+  @include icons-sprite(yo_dawg);
+}
